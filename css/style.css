@@ -5,7 +5,9 @@
  :root{
     /*- COLORI TESTO -*/
     --clr-txt: #000;
+    --clr-txt-0: rgba(0, 0, 0, 0.7);
     --clr-txt-1: #fff;
+    --clr-txt-2: #1B80D3;
     --clr-ttl: #000;
     /*- COLORI BG -*/
     --clr-bg: #000;
@@ -53,6 +55,14 @@
 body{
     font-family: 'Lato', sans-serif;
     color: var(--clr-txt);
+}
+
+.text-blue{
+    color: var(--clr-txt-2)
+}
+
+.text-gray{
+    color: var(--clr-txt-0)
 }
 
 /*--- BUTTON ---*/
@@ -140,4 +150,24 @@ header{
 .select-game{
     border-radius: 15px;
     padding: var(--gutter-sm);
+}
+
+/*--- HARDWARE ---*/
+
+.hardware{
+    padding: var(--gutter-xxl) 0;
+}
+
+.item-menu{
+    opacity: 0.8;
+}
+
+.item-menu.select{
+    opacity: 1;
+    border-bottom: 2px solid var(--clr-txt-2);
+}
+
+.item-menu:hover {
+    opacity: 1;
+    border-bottom: 2px solid var(--clr-txt-2);
 }
