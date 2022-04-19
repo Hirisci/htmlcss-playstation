@@ -12,6 +12,7 @@
     --clr-bg-1: #fff;
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
+    --clr-btn-2: #CD3D0F;
 
     /*- ALTEZZA ELEMENTI FIXED -*/
     --height-header: 100px;
@@ -63,6 +64,11 @@ body{
 
 .btn_accedi{
     background-color: var(--clr-btn-1);
+    color: var(--clr-txt-1);
+}
+
+.btn_buy{
+    background-color: var(--clr-btn-2);
     color: var(--clr-txt-1);
 }
 
@@ -124,5 +130,10 @@ header{
     bottom: 0;
     right: 0;
     padding: var(--gutter-xxl) var(--gutter-md);
+}
+
+.info-banner-img{
+    width: 200px;
+    margin-bottom: var(--gutter-md);
 }
 
