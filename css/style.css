@@ -5,10 +5,11 @@
  :root{
     /*- COLORI TESTO -*/
     --clr-txt: #000;
-    --clr-txt: #fff;
+    --clr-txt-1: #fff;
     --clr-ttl: #000;
     /*- COLORI BG -*/
     --clr-bg: #000;
+    --clr-bg-1: #fff;
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
 
@@ -85,11 +86,16 @@ header{
 }
 
 .logo-top{
+    background-color: var(--clr-bg);
     width: 110px;
 }
 
 
 /* --- HEADER BOT ---  */
+.header-bot{
+    background-color: var(--clr-bg-1);
+}
+
 .header-bot li a i {
     font-size: 1.5rem;
 }
