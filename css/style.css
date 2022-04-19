@@ -4,10 +4,13 @@
 
  :root{
     /*- COLORI TESTO -*/
-    --colore-testo: #000;
-    --colore-testo-titolo: #000;
+    --clr-txt: #000;
+    --clr-txt: #fff;
+    --clr-ttl: #000;
     /*- COLORI BG -*/
-    --colore-bg: #000;
+    --clr-bg: #000;
+    /*- COLORI BOTTONI -*/
+    --clr-btn-1: #363636;
 
     /*- DIMENSIONI GUTTER*/
     --gutter-xs: 0.25rem;
@@ -15,7 +18,6 @@
     --gutter-md: 1rem;
     --gutter-lg: 1.5rem;
     --gutter-xl: 2rem;
-
 }
 
 /*╔═══════════════╗
@@ -40,10 +42,26 @@
 /*╔═══════════════╗
        COMMON
   ╚═══════════════╝*/
+
+/*--- TYPO ---*/
 body{
     font-family: 'Lato', sans-serif;
-    color: var(--colore-testo);
+    color: var(--clr-txt);
 }
+
+/*--- BUTTON ---*/
+
+.btn_pillow{
+    padding: .375rem 1rem;
+    border-radius: 1rem;
+}
+
+.btn_accedi{
+    background-color: var(--clr-btn-1);
+    color: var(--clr-txt-1);
+}
+
+
 
 
 /*╔═══════════════╗
@@ -53,7 +71,7 @@ body{
 
 /* --- HEADER TOP ---  */
 .header-top{
-    background-color: var(--colore-bg);
+    background-color: var(--clr-bg);
     padding: var(--gutter-sm);
 }
 
@@ -61,6 +79,9 @@ body{
     width: 110px;
 }
 
-/* --- HEADER BOT ---  */
 
+/* --- HEADER BOT ---  */
+.header-bot li a i {
+    font-size: 1.5rem;
+}
 
