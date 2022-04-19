@@ -12,10 +12,12 @@
     /*- COLORI BG -*/
     --clr-bg: #000;
     --clr-bg-1: #fff;
+    --clr-bg-2: #1F1F1F;
+    --clr-bg-3: #BEBCBB;
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
     --clr-btn-2: #CD3D0F;
-
+    --clr-btn-3: #D9DADC;
     /*- ALTEZZA ELEMENTI FIXED -*/
     --height-header: 100px;
 
@@ -80,6 +82,11 @@ body{
 .btn_buy{
     background-color: var(--clr-btn-2);
     color: var(--clr-txt-1);
+}
+
+.btn_explor{
+    background-color: var(--clr-btn-3);
+    color: var(--clr-txt-2);
 }
 
 
@@ -151,10 +158,10 @@ header{
     padding: var(--gutter-sm);
 }
 
-/*--- HARDWARE ---*/
+/*--- PS5-ZONE ---*/
 
-.hardware{
-    padding: var(--gutter-xxl) 0;
+.ps5-zone{
+    /* padding: var(--gutter-xxl) 0; */
 }
 
 .item-menu{
@@ -169,4 +176,25 @@ header{
 .item-menu:hover {
     opacity: 1;
     border-bottom: 2px solid var(--clr-txt-2);
+}
+
+/* --- GAME ---*/
+
+.game{
+    background-color: var(--clr-bg-2);
+    color: var(--clr-txt-1);
+}
+
+.store-item{
+    border-radius: 15px;
+}
+
+/*--- PLS-PLUS ---*/
+.pls-plus{
+    padding: var(--gutter-xxl);
+    background-color: var(--clr-bg-3);
+}
+.plus-img{
+    width: 250px;
+    margin-bottom: var(--gutter-md);
 }
