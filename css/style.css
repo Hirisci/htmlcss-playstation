@@ -7,9 +7,10 @@
     --colore-testo: #000;
     --colore-testo-titolo: #000;
     /*- COLORI BG -*/
-    --colore-bg-primario: #fff;
+    --colore-bg: #000;
 
     /*- DIMENSIONI GUTTER*/
+    --gutter-xs: 0.25rem;
     --gutter-sm: 0.5rem;
     --gutter-md: 1rem;
     --gutter-lg: 1.5rem;
@@ -48,4 +49,18 @@ body{
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
-/*  */
+
+
+/* --- HEADER TOP ---  */
+.header-top{
+    background-color: var(--colore-bg);
+    padding: var(--gutter-sm);
+}
+
+.logo-top{
+    width: 110px;
+}
+
+/* --- HEADER BOT ---  */
+
+
