@@ -109,14 +109,14 @@ header{
 }
 
 /*--- HERO ---*/
-
 .hero{
     padding-top: var(--height-header);
-    position: relative;
-
 }
 
 .banner{
+    position: relative;
+}
+.banner-img{
     width: 100%;
     min-height: 50vh;
     object-position: center;
@@ -137,3 +137,7 @@ header{
     margin-bottom: var(--gutter-md);
 }
 
+.select-game{
+    border-radius: 15px;
+    padding: var(--gutter-sm);
+}
