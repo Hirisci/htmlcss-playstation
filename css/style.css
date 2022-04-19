@@ -15,6 +15,7 @@
     --clr-bg-2: #1F1F1F;
     --clr-bg-3: #BEBCBB;
     --clr-bg-4: #161C3B;
+    --clr-bg-5: #00439C;
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
     --clr-btn-2: #CD3D0F;
@@ -217,4 +218,36 @@ header{
 .social ul li {
     list-style: none;
     padding: 0;
+}
+
+/*--- FOOTER ---*/
+
+footer{
+    padding: var(--gutter-xl) 0;
+    background-color: var(--clr-bg-5);
+    color: var(--clr-txt-1);
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* TOP */
+
+/* BOT */
+
+.img-footer{
+    height: 80px;
+}
+
+.icona{
+    height: 16px;
+}
+footer p {
+    margin: 0;
+    margin-top: var(--gutter-sm);
+}
+
+footer p a {
+    color: inherit;
 }
