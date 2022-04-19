@@ -137,9 +137,8 @@ header{
     position: absolute;
     z-index: 1;
     left: 0;
-    bottom: 0;
+    bottom: 25px;
     right: 0;
-    padding: var(--gutter-xxl) var(--gutter-md);
 }
 
 .info-banner-img{
