@@ -12,6 +12,9 @@
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
 
+    /*- ALTEZZA ELEMENTI FIXED -*/
+    --height-header: 100px;
+
     /*- DIMENSIONI GUTTER*/
     --gutter-xs: 0.25rem;
     --gutter-sm: 0.5rem;
@@ -67,6 +70,12 @@ body{
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
+
+header{
+    position: fixed;
+    width: 100%;
+    height: var(--height-header);
+}
 
 
 /* --- HEADER TOP ---  */
