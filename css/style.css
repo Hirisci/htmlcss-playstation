@@ -14,10 +14,12 @@
     --clr-bg-1: #fff;
     --clr-bg-2: #1F1F1F;
     --clr-bg-3: #BEBCBB;
+    --clr-bg-4: #161C3B;
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
     --clr-btn-2: #CD3D0F;
     --clr-btn-3: #D9DADC;
+    --clr-btn-4: #F5F5F5;
     /*- ALTEZZA ELEMENTI FIXED -*/
     --height-header: 100px;
 
@@ -194,7 +196,25 @@ header{
     padding: var(--gutter-xxl);
     background-color: var(--clr-bg-3);
 }
-.plus-img{
+.plus-img,.now-img{
     width: 250px;
     margin-bottom: var(--gutter-md);
+}
+
+.pls-now{
+    padding: var(--gutter-xxl);
+    background-color: var(--clr-bg-4);
+    color: var(--clr-txt-1);
+}
+
+/*--- SOCIAL ---*/
+
+.social-list-item{
+    height: 150px;
+    width: 150px;
+}
+
+.social ul li {
+    list-style: none;
+    padding: 0;
 }
