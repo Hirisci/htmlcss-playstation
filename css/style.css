@@ -16,6 +16,8 @@
     --clr-bg-3: #BEBCBB;
     --clr-bg-4: #161C3B;
     --clr-bg-5: #00439C;
+    /*- COLORI SELEZIONI -*/
+    --clr-slc: #2083D4;
     /*- COLORI BOTTONI -*/
     --clr-btn-1: #363636;
     --clr-btn-2: #CD3D0F;
@@ -158,7 +160,16 @@ header{
 
 .select-game{
     border-radius: 15px;
-    padding: var(--gutter-sm);
+    padding: var(--gutter-xs);
+    transition: transform 0.35s;
+}
+
+.select-game:hover{
+    transform: translateY(-10%);
+}
+
+.select-game.active{
+    border: 2px solid var(--clr-slc);
 }
 
 /*--- PS5-ZONE ---*/
