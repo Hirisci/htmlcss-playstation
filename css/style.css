@@ -187,7 +187,7 @@ header{
 }
 .banner-img{
     width: 100%;
-    min-height: 50vh;
+    min-height: 70vh;
     object-position: center;
     object-fit: cover;
 }
