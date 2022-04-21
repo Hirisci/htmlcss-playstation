@@ -74,21 +74,17 @@ body{
 
 /*--- BUTTON ---*/
 
-.btn_cornice:hover{
-    border-color: var(--clr-bg-4);
+.btn{
+    border: 2px solid ;
+
 }
 
-.btn:hover{
-    color: #fff;
-}
 
-.btn_cornice{
-    display: inline-block;
-    border: 2px solid transparent;
-    padding: 2px;
-    border-radius: 1rem;
-}
-
+/* .btn:hover{
+    outline: none;
+    box-shadow: 0 0 0 2px coral;
+    
+} */
 
 .btn_pillow{
     padding: .375rem 1rem;
@@ -99,10 +95,22 @@ body{
     background-color: var(--clr-btn-1);
     color: var(--clr-txt-1);
 }
+.btn_accedi:hover{
+    outline: none;
+    box-shadow: 0 0 0 2px var(--clr-btn-1);
+}
 
+
+.btn_inset{
+    
+}
 .btn_buy{
     background-color: var(--clr-btn-2);
-    color: var(--clr-txt-1);
+}
+
+.btn_buy:hover{
+    outline: none;
+    box-shadow: 0 0 0 2px var(--clr-btn-2); 
 }
 
 .btn_explor{
