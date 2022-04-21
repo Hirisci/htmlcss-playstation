@@ -23,6 +23,7 @@
     --clr-btn-2: #CD3D0F;
     --clr-btn-3: #D9DADC;
     --clr-btn-4: #F5F5F5;
+    --clr-btn-5: #2D64E6;
     /*- ALTEZZA ELEMENTI FIXED -*/
     --height-header: 100px;
 
@@ -82,13 +83,19 @@ body{
 } */
 
 .btn{
-    padding: 2px;
+    padding: 1px;
 }
 .btn_pillow{
-    border-radius: 1rem;
+    border-radius: 2rem;
+}
+.btn span{
+    display: inline-block;
+    padding: .375rem 1rem;
+    border-radius: 2rem;
+    color: var(--clr-txt-1);
 }
 
-.btn_accedi{
+.btn_accedi span{
     background-color: var(--clr-btn-1);
     color: var(--clr-txt-1);
 }
@@ -97,15 +104,6 @@ body{
     box-shadow: 0 0 0 2px var(--clr-btn-1);
 }
 
-.btn span{
-    display: inline-block;
-    padding: .375rem 1rem;
-    border-radius: 1rem;
-}
-
-.btn_inset{
-
-}
 .btn_buy span{
     background-color: var(--clr-btn-2);
 }
@@ -115,10 +113,33 @@ body{
     box-shadow: 0 0 0 2px var(--clr-btn-2); 
 }
 
-.btn_explor{
+.btn_explor span{
     background-color: var(--clr-btn-3);
     color: var(--clr-txt-2);
 }
+
+.btn_explor:hover{
+   background-color: var(--clr-btn-3);   
+}
+
+.pls-now .btn_explor span{
+    background-color: var(--clr-btn-4);
+    color: var(--clr-txt);
+}
+
+.pls-now .btn_explor:hover{
+    background-color: var(--clr-btn-4);   
+ }
+
+ .btn_info span{
+    background-color: var(--clr-btn-5);
+    color: var(--clr-txt-1);
+}
+.btn_info:hover{
+    outline: none;
+    box-shadow: 0 0 0 2px var(--clr-btn-5);
+}
+
 
 
 
