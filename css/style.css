@@ -74,11 +74,6 @@ body{
 
 /*--- BUTTON ---*/
 
-.btn{
-    border: 2px solid ;
-
-}
-
 
 /* .btn:hover{
     outline: none;
@@ -86,8 +81,10 @@ body{
     
 } */
 
+.btn{
+    padding: 2px;
+}
 .btn_pillow{
-    padding: .375rem 1rem;
     border-radius: 1rem;
 }
 
@@ -100,11 +97,16 @@ body{
     box-shadow: 0 0 0 2px var(--clr-btn-1);
 }
 
+.btn span{
+    display: inline-block;
+    padding: .375rem 1rem;
+    border-radius: 1rem;
+}
 
 .btn_inset{
-    
+
 }
-.btn_buy{
+.btn_buy span{
     background-color: var(--clr-btn-2);
 }
 
